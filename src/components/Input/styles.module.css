@@ -1,0 +1,12 @@
+.input {
+    height: 52px;
+    padding: 10px 20px;
+    border: 1px solid rgb(188, 220, 251);
+    border-radius: 6px;
+    transition: border-color 0.2s ease;
+
+    &:hover,
+    &:focus {
+        border-color: rgb(161, 189, 216);
+    }
+}
